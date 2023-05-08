@@ -5,8 +5,6 @@ services:
         image: noiz-front-end
         container_name: noiz-front-end
         restart: always
-        environment:
-            - VUE_APP_API_URL="http://localhost:3000/api/v1/"
         ports:
             - "80:80"
     api:
